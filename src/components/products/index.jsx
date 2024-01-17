@@ -43,7 +43,7 @@ const Products = (props) => {
       </div>
       <div className="row">
         <div className="col">
-          <button onClick={()=>{
+          <button className="btn btn-outline-primary w-100" onClick={()=>{
             setLimit(limit+5)
           }}>
             Cargar mas ..
